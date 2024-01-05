@@ -1,0 +1,327 @@
+sample info message
+sample warn message
+sample error message
+sample fatal message
+Cannot locate configuration: tried hadoop-metrics2-jobtracker.properties,hadoop-metrics2.properties
+Scheduled Metric snapshot period at 10 second(s).
+JobTracker metrics system started
+JobTracker metrics system already initialized!
+Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+Total input files to process : 1
+Total input files to process : 1
+Total input files to process : 1
+number of splits:3
+Submitting tokens for job: job_local265302785_0001
+Executing with tokens: []
+The url to track the job: http://localhost:8080/
+Running job: job_local265302785_0001
+OutputCommitter set in config null
+OutputCommitter is org.apache.hadoop.mapred.FileOutputCommitter
+File Output Committer Algorithm version is 2
+FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+Waiting for map tasks
+Starting task: attempt_local265302785_0001_m_000000_0
+File Output Committer Algorithm version is 2
+FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+ProcfsBasedProcessTree currently is supported only on Linux.
+ Using ResourceCalculatorProcessTree : org.apache.hadoop.yarn.util.WindowsBasedProcessTree@6befb950
+Processing split: file:/C:/Users/91805/eclipse-workspace/WordCount/input2.txt:0+15
+numReduceTasks: 2
+(EQUATOR) 0 kvi 26214396(104857584)
+mapreduce.task.io.sort.mb: 100
+soft limit at 83886080
+bufstart = 0; bufvoid = 104857600
+kvstart = 26214396; length = 6553600
+Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+
+Starting flush of map output
+Spilling map output
+bufstart = 0; bufend = 120; bufvoid = 104857600
+kvstart = 26214396(104857584); kvend = 26214368(104857472); length = 29/6553600
+Finished spill 0
+Task:attempt_local265302785_0001_m_000000_0 is done. And is in the process of committing
+file:/C:/Users/91805/eclipse-workspace/WordCount/input2.txt:0+15
+Task 'attempt_local265302785_0001_m_000000_0' done.
+Final Counters for attempt_local265302785_0001_m_000000_0: Counters: 17
+	File System Counters
+		FILE: Number of bytes read=728
+		FILE: Number of bytes written=631718
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+	Map-Reduce Framework
+		Map input records=1
+		Map output records=8
+		Map output bytes=120
+		Map output materialized bytes=148
+		Input split bytes=209
+		Combine input records=0
+		Spilled Records=8
+		Failed Shuffles=0
+		Merged Map outputs=0
+		GC time elapsed (ms)=3
+		Total committed heap usage (bytes)=260046848
+	File Input Format Counters 
+		Bytes Read=0
+Finishing task: attempt_local265302785_0001_m_000000_0
+Starting task: attempt_local265302785_0001_m_000001_0
+File Output Committer Algorithm version is 2
+FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+ProcfsBasedProcessTree currently is supported only on Linux.
+ Using ResourceCalculatorProcessTree : org.apache.hadoop.yarn.util.WindowsBasedProcessTree@65de88b7
+Processing split: file:/C:/Users/91805/eclipse-workspace/WordCount/input1.txt:0+15
+numReduceTasks: 2
+(EQUATOR) 0 kvi 26214396(104857584)
+mapreduce.task.io.sort.mb: 100
+soft limit at 83886080
+bufstart = 0; bufvoid = 104857600
+kvstart = 26214396; length = 6553600
+Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+
+Starting flush of map output
+Spilling map output
+bufstart = 0; bufend = 120; bufvoid = 104857600
+kvstart = 26214396(104857584); kvend = 26214368(104857472); length = 29/6553600
+Finished spill 0
+Task:attempt_local265302785_0001_m_000001_0 is done. And is in the process of committing
+file:/C:/Users/91805/eclipse-workspace/WordCount/input1.txt:0+15
+Task 'attempt_local265302785_0001_m_000001_0' done.
+Final Counters for attempt_local265302785_0001_m_000001_0: Counters: 17
+	File System Counters
+		FILE: Number of bytes read=1392
+		FILE: Number of bytes written=631922
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+	Map-Reduce Framework
+		Map input records=1
+		Map output records=8
+		Map output bytes=120
+		Map output materialized bytes=148
+		Input split bytes=209
+		Combine input records=0
+		Spilled Records=8
+		Failed Shuffles=0
+		Merged Map outputs=0
+		GC time elapsed (ms)=4
+		Total committed heap usage (bytes)=440401920
+	File Input Format Counters 
+		Bytes Read=0
+Finishing task: attempt_local265302785_0001_m_000001_0
+Starting task: attempt_local265302785_0001_m_000002_0
+File Output Committer Algorithm version is 2
+FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+ProcfsBasedProcessTree currently is supported only on Linux.
+ Using ResourceCalculatorProcessTree : org.apache.hadoop.yarn.util.WindowsBasedProcessTree@21498d68
+Processing split: file:/C:/Users/91805/eclipse-workspace/WordCount/input.txt:0+15
+numReduceTasks: 2
+(EQUATOR) 0 kvi 26214396(104857584)
+mapreduce.task.io.sort.mb: 100
+soft limit at 83886080
+bufstart = 0; bufvoid = 104857600
+kvstart = 26214396; length = 6553600
+Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+
+Starting flush of map output
+Spilling map output
+bufstart = 0; bufend = 120; bufvoid = 104857600
+kvstart = 26214396(104857584); kvend = 26214368(104857472); length = 29/6553600
+Finished spill 0
+Task:attempt_local265302785_0001_m_000002_0 is done. And is in the process of committing
+file:/C:/Users/91805/eclipse-workspace/WordCount/input.txt:0+15
+Task 'attempt_local265302785_0001_m_000002_0' done.
+Final Counters for attempt_local265302785_0001_m_000002_0: Counters: 17
+	File System Counters
+		FILE: Number of bytes read=2056
+		FILE: Number of bytes written=632126
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+	Map-Reduce Framework
+		Map input records=1
+		Map output records=8
+		Map output bytes=120
+		Map output materialized bytes=148
+		Input split bytes=208
+		Combine input records=0
+		Spilled Records=8
+		Failed Shuffles=0
+		Merged Map outputs=0
+		GC time elapsed (ms)=2
+		Total committed heap usage (bytes)=440401920
+	File Input Format Counters 
+		Bytes Read=0
+Finishing task: attempt_local265302785_0001_m_000002_0
+map task executor complete.
+Waiting for reduce tasks
+Starting task: attempt_local265302785_0001_r_000000_0
+File Output Committer Algorithm version is 2
+FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+ProcfsBasedProcessTree currently is supported only on Linux.
+ Using ResourceCalculatorProcessTree : org.apache.hadoop.yarn.util.WindowsBasedProcessTree@65324913
+Using ShuffleConsumerPlugin: org.apache.hadoop.mapreduce.task.reduce.Shuffle@4ffb6c1a
+JobTracker metrics system already initialized!
+MergerManager: memoryLimit=2975649024, maxSingleShuffleLimit=743912256, mergeThreshold=1963928448, ioSortFactor=10, memToMemMergeOutputsThreshold=10
+attempt_local265302785_0001_r_000000_0 Thread started: EventFetcher for fetching Map Completion Events
+localfetcher#1 about to shuffle output of map attempt_local265302785_0001_m_000002_0 decomp: 138 len: 142 to MEMORY
+Read 138 bytes from map-output for attempt_local265302785_0001_m_000002_0
+closeInMemoryFile -> map-output of size: 138, inMemoryMapOutputs.size() -> 1, commitMemory -> 0, usedMemory ->138
+localfetcher#1 about to shuffle output of map attempt_local265302785_0001_m_000001_0 decomp: 138 len: 142 to MEMORY
+Read 138 bytes from map-output for attempt_local265302785_0001_m_000001_0
+closeInMemoryFile -> map-output of size: 138, inMemoryMapOutputs.size() -> 2, commitMemory -> 138, usedMemory ->276
+localfetcher#1 about to shuffle output of map attempt_local265302785_0001_m_000000_0 decomp: 138 len: 142 to MEMORY
+Read 138 bytes from map-output for attempt_local265302785_0001_m_000000_0
+closeInMemoryFile -> map-output of size: 138, inMemoryMapOutputs.size() -> 3, commitMemory -> 276, usedMemory ->414
+EventFetcher is interrupted.. Returning
+3 / 3 copied.
+finalMerge called with 3 in-memory map-outputs and 0 on-disk map-outputs
+Merging 3 sorted segments
+Down to the last merge-pass, with 3 segments left of total size: 375 bytes
+Merged 3 segments, 414 bytes to disk to satisfy reduce memory limit
+Merging 1 files, 414 bytes from disk
+Merging 0 segments, 0 bytes from memory into reduce
+Merging 1 sorted segments
+Down to the last merge-pass, with 1 segments left of total size: 397 bytes
+3 / 3 copied.
+Task:attempt_local265302785_0001_r_000000_0 is done. And is in the process of committing
+3 / 3 copied.
+Task attempt_local265302785_0001_r_000000_0 is allowed to commit now
+Saved output of task 'attempt_local265302785_0001_r_000000_0' to file:/C:/Users/91805/eclipse-workspace/WordCount/output
+reduce > reduce
+Task 'attempt_local265302785_0001_r_000000_0' done.
+Final Counters for attempt_local265302785_0001_r_000000_0: Counters: 24
+	File System Counters
+		FILE: Number of bytes read=3082
+		FILE: Number of bytes written=632566
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+	Map-Reduce Framework
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=1
+		Reduce shuffle bytes=426
+		Reduce input records=24
+		Reduce output records=1
+		Spilled Records=24
+		Shuffled Maps =3
+		Failed Shuffles=0
+		Merged Map outputs=3
+		GC time elapsed (ms)=0
+		Total committed heap usage (bytes)=440401920
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Output Format Counters 
+		Bytes Written=26
+Finishing task: attempt_local265302785_0001_r_000000_0
+Starting task: attempt_local265302785_0001_r_000001_0
+File Output Committer Algorithm version is 2
+FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+ProcfsBasedProcessTree currently is supported only on Linux.
+ Using ResourceCalculatorProcessTree : org.apache.hadoop.yarn.util.WindowsBasedProcessTree@7ffa3b70
+Using ShuffleConsumerPlugin: org.apache.hadoop.mapreduce.task.reduce.Shuffle@3d263708
+JobTracker metrics system already initialized!
+MergerManager: memoryLimit=2975649024, maxSingleShuffleLimit=743912256, mergeThreshold=1963928448, ioSortFactor=10, memToMemMergeOutputsThreshold=10
+attempt_local265302785_0001_r_000001_0 Thread started: EventFetcher for fetching Map Completion Events
+localfetcher#2 about to shuffle output of map attempt_local265302785_0001_m_000002_0 decomp: 2 len: 6 to MEMORY
+Read 2 bytes from map-output for attempt_local265302785_0001_m_000002_0
+closeInMemoryFile -> map-output of size: 2, inMemoryMapOutputs.size() -> 1, commitMemory -> 0, usedMemory ->2
+localfetcher#2 about to shuffle output of map attempt_local265302785_0001_m_000001_0 decomp: 2 len: 6 to MEMORY
+Read 2 bytes from map-output for attempt_local265302785_0001_m_000001_0
+closeInMemoryFile -> map-output of size: 2, inMemoryMapOutputs.size() -> 2, commitMemory -> 2, usedMemory ->4
+localfetcher#2 about to shuffle output of map attempt_local265302785_0001_m_000000_0 decomp: 2 len: 6 to MEMORY
+Read 2 bytes from map-output for attempt_local265302785_0001_m_000000_0
+closeInMemoryFile -> map-output of size: 2, inMemoryMapOutputs.size() -> 3, commitMemory -> 4, usedMemory ->6
+EventFetcher is interrupted.. Returning
+3 / 3 copied.
+finalMerge called with 3 in-memory map-outputs and 0 on-disk map-outputs
+Merging 3 sorted segments
+Down to the last merge-pass, with 0 segments left of total size: 0 bytes
+Merged 3 segments, 6 bytes to disk to satisfy reduce memory limit
+Merging 1 files, 6 bytes from disk
+Merging 0 segments, 0 bytes from memory into reduce
+Merging 1 sorted segments
+Down to the last merge-pass, with 0 segments left of total size: 0 bytes
+3 / 3 copied.
+Task:attempt_local265302785_0001_r_000001_0 is done. And is in the process of committing
+3 / 3 copied.
+Task attempt_local265302785_0001_r_000001_0 is allowed to commit now
+Saved output of task 'attempt_local265302785_0001_r_000001_0' to file:/C:/Users/91805/eclipse-workspace/WordCount/output
+reduce > reduce
+Task 'attempt_local265302785_0001_r_000001_0' done.
+Final Counters for attempt_local265302785_0001_r_000001_0: Counters: 24
+	File System Counters
+		FILE: Number of bytes read=3274
+		FILE: Number of bytes written=632580
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+	Map-Reduce Framework
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=0
+		Reduce shuffle bytes=18
+		Reduce input records=0
+		Reduce output records=0
+		Spilled Records=0
+		Shuffled Maps =3
+		Failed Shuffles=0
+		Merged Map outputs=3
+		GC time elapsed (ms)=0
+		Total committed heap usage (bytes)=440401920
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Output Format Counters 
+		Bytes Written=8
+Finishing task: attempt_local265302785_0001_r_000001_0
+reduce task executor complete.
+Job job_local265302785_0001 running in uber mode : false
+ map 100% reduce 100%
+Job job_local265302785_0001 completed successfully
+Counters: 30
+	File System Counters
+		FILE: Number of bytes read=10532
+		FILE: Number of bytes written=3160912
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+	Map-Reduce Framework
+		Map input records=3
+		Map output records=24
+		Map output bytes=360
+		Map output materialized bytes=444
+		Input split bytes=626
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=1
+		Reduce shuffle bytes=444
+		Reduce input records=24
+		Reduce output records=1
+		Spilled Records=48
+		Shuffled Maps =6
+		Failed Shuffles=0
+		Merged Map outputs=6
+		GC time elapsed (ms)=9
+		Total committed heap usage (bytes)=2021654528
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=0
+	File Output Format Counters 
+		Bytes Written=34

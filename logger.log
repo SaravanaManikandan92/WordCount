@@ -1,0 +1,169 @@
+2021/08/30 01:17:37.455 [ WARN] main (MetricsConfig.java) - Cannot locate configuration: tried hadoop-metrics2-jobtracker.properties,hadoop-metrics2.properties
+2021/08/30 01:17:37.510 [ INFO] main (MetricsSystemImpl.java) - Scheduled Metric snapshot period at 10 second(s).
+2021/08/30 01:17:37.510 [ INFO] main (MetricsSystemImpl.java) - JobTracker metrics system started
+2021/08/30 01:17:37.517 [ WARN] main (MetricsSystemImpl.java) - JobTracker metrics system already initialized!
+2021/08/30 01:17:37.584 [ WARN] main (JobResourceUploader.java) - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2021/08/30 01:17:37.598 [ WARN] main (JobResourceUploader.java) - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2021/08/30 01:17:37.622 [ INFO] main (FileInputFormat.java) - Total input files to process : 3
+2021/08/30 01:17:37.655 [ INFO] main (JobSubmitter.java) - number of splits:3
+2021/08/30 01:17:37.766 [ INFO] main (JobSubmitter.java) - Submitting tokens for job: job_local226148433_0001
+2021/08/30 01:17:37.767 [ INFO] main (JobSubmitter.java) - Executing with tokens: []
+2021/08/30 01:17:37.852 [ INFO] main (Job.java) - The url to track the job: http://localhost:8080/
+2021/08/30 01:17:37.853 [ INFO] Thread-3 (LocalJobRunner.java) - OutputCommitter set in config null
+2021/08/30 01:17:37.853 [ INFO] main (Job.java) - Running job: job_local226148433_0001
+2021/08/30 01:17:37.854 [ INFO] Thread-3 (LocalJobRunner.java) - OutputCommitter is org.apache.hadoop.mapred.FileOutputCommitter
+2021/08/30 01:17:37.858 [ INFO] Thread-3 (FileOutputCommitter.java) - File Output Committer Algorithm version is 2
+2021/08/30 01:17:37.859 [ INFO] Thread-3 (FileOutputCommitter.java) - FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+2021/08/30 01:17:37.880 [ INFO] Thread-3 (LocalJobRunner.java) - Waiting for map tasks
+2021/08/30 01:17:37.882 [ INFO] LocalJobRunner Map Task Executor #0 (LocalJobRunner.java) - Starting task: attempt_local226148433_0001_m_000000_0
+2021/08/30 01:17:37.895 [ INFO] LocalJobRunner Map Task Executor #0 (FileOutputCommitter.java) - File Output Committer Algorithm version is 2
+2021/08/30 01:17:37.895 [ INFO] LocalJobRunner Map Task Executor #0 (FileOutputCommitter.java) - FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+2021/08/30 01:17:37.899 [ INFO] LocalJobRunner Map Task Executor #0 (ProcfsBasedProcessTree.java) - ProcfsBasedProcessTree currently is supported only on Linux.
+2021/08/30 01:17:37.933 [ INFO] LocalJobRunner Map Task Executor #0 (Task.java) -  Using ResourceCalculatorProcessTree : org.apache.hadoop.yarn.util.WindowsBasedProcessTree@71f27800
+2021/08/30 01:17:37.938 [ INFO] LocalJobRunner Map Task Executor #0 (MapTask.java) - Processing split: file:/C:/Users/91805/eclipse-workspace/WordCount/RMIT:0+12776206
+2021/08/30 01:17:37.949 [ INFO] LocalJobRunner Map Task Executor #0 (MapTask.java) - numReduceTasks: 1
+2021/08/30 01:17:37.986 [ INFO] LocalJobRunner Map Task Executor #0 (MapTask.java) - (EQUATOR) 0 kvi 26214396(104857584)
+2021/08/30 01:17:37.987 [ INFO] LocalJobRunner Map Task Executor #0 (MapTask.java) - mapreduce.task.io.sort.mb: 100
+2021/08/30 01:17:37.987 [ INFO] LocalJobRunner Map Task Executor #0 (MapTask.java) - soft limit at 83886080
+2021/08/30 01:17:37.987 [ INFO] LocalJobRunner Map Task Executor #0 (MapTask.java) - bufstart = 0; bufvoid = 104857600
+2021/08/30 01:17:37.987 [ INFO] LocalJobRunner Map Task Executor #0 (MapTask.java) - kvstart = 26214396; length = 6553600
+2021/08/30 01:17:37.993 [ INFO] LocalJobRunner Map Task Executor #0 (MapTask.java) - Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+2021/08/30 01:17:38.497 [ INFO] LocalJobRunner Map Task Executor #0 (LocalJobRunner.java) - 
+2021/08/30 01:17:38.497 [ INFO] LocalJobRunner Map Task Executor #0 (MapTask.java) - Starting flush of map output
+2021/08/30 01:17:38.497 [ INFO] LocalJobRunner Map Task Executor #0 (MapTask.java) - Spilling map output
+2021/08/30 01:17:38.497 [ INFO] LocalJobRunner Map Task Executor #0 (MapTask.java) - bufstart = 0; bufend = 20707752; bufvoid = 104857600
+2021/08/30 01:17:38.497 [ INFO] LocalJobRunner Map Task Executor #0 (MapTask.java) - kvstart = 26214396(104857584); kvend = 18194368(72777472); length = 8020029/6553600
+2021/08/30 01:17:38.869 [ INFO] main (Job.java) - Job job_local226148433_0001 running in uber mode : false
+2021/08/30 01:17:38.870 [ INFO] main (Job.java) -  map 0% reduce 0%
+2021/08/30 01:17:39.419 [ INFO] LocalJobRunner Map Task Executor #0 (MapTask.java) - Finished spill 0
+2021/08/30 01:17:39.427 [ INFO] LocalJobRunner Map Task Executor #0 (Task.java) - Task:attempt_local226148433_0001_m_000000_0 is done. And is in the process of committing
+2021/08/30 01:17:39.429 [ INFO] LocalJobRunner Map Task Executor #0 (LocalJobRunner.java) - file:/C:/Users/91805/eclipse-workspace/WordCount/RMIT:0+12776206
+2021/08/30 01:17:39.429 [ INFO] LocalJobRunner Map Task Executor #0 (Task.java) - Task 'attempt_local226148433_0001_m_000000_0' done.
+2021/08/30 01:17:39.433 [ INFO] LocalJobRunner Map Task Executor #0 (Task.java) - Final Counters for attempt_local226148433_0001_m_000000_0: Counters: 18
+	File System Counters
+		FILE: Number of bytes read=12776938
+		FILE: Number of bytes written=652902
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+	Map-Reduce Framework
+		Map input records=85271
+		Map output records=2005008
+		Map output bytes=20707752
+		Map output materialized bytes=21359
+		Input split bytes=208
+		Combine input records=2005008
+		Combine output records=1489
+		Spilled Records=1489
+		Failed Shuffles=0
+		Merged Map outputs=0
+		GC time elapsed (ms)=16
+		Total committed heap usage (bytes)=325058560
+	File Input Format Counters 
+		Bytes Read=0
+2021/08/30 01:17:39.433 [ INFO] LocalJobRunner Map Task Executor #0 (LocalJobRunner.java) - Finishing task: attempt_local226148433_0001_m_000000_0
+2021/08/30 01:17:39.434 [ INFO] LocalJobRunner Map Task Executor #0 (LocalJobRunner.java) - Starting task: attempt_local226148433_0001_m_000001_0
+2021/08/30 01:17:39.435 [ INFO] LocalJobRunner Map Task Executor #0 (FileOutputCommitter.java) - File Output Committer Algorithm version is 2
+2021/08/30 01:17:39.435 [ INFO] LocalJobRunner Map Task Executor #0 (FileOutputCommitter.java) - FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+2021/08/30 01:17:39.435 [ INFO] LocalJobRunner Map Task Executor #0 (ProcfsBasedProcessTree.java) - ProcfsBasedProcessTree currently is supported only on Linux.
+2021/08/30 01:17:39.468 [ INFO] LocalJobRunner Map Task Executor #0 (Task.java) -  Using ResourceCalculatorProcessTree : org.apache.hadoop.yarn.util.WindowsBasedProcessTree@6528d6b7
+2021/08/30 01:17:39.470 [ INFO] LocalJobRunner Map Task Executor #0 (MapTask.java) - Processing split: file:/C:/Users/91805/eclipse-workspace/WordCount/Melbourne:0+12576186
+2021/08/30 01:17:39.472 [ INFO] LocalJobRunner Map Task Executor #0 (MapTask.java) - numReduceTasks: 1
+2021/08/30 01:17:39.506 [ INFO] LocalJobRunner Map Task Executor #0 (MapTask.java) - (EQUATOR) 0 kvi 26214396(104857584)
+2021/08/30 01:17:39.506 [ INFO] LocalJobRunner Map Task Executor #0 (MapTask.java) - mapreduce.task.io.sort.mb: 100
+2021/08/30 01:17:39.506 [ INFO] LocalJobRunner Map Task Executor #0 (MapTask.java) - soft limit at 83886080
+2021/08/30 01:17:39.506 [ INFO] LocalJobRunner Map Task Executor #0 (MapTask.java) - bufstart = 0; bufvoid = 104857600
+2021/08/30 01:17:39.507 [ INFO] LocalJobRunner Map Task Executor #0 (MapTask.java) - kvstart = 26214396; length = 6553600
+2021/08/30 01:17:39.507 [ INFO] LocalJobRunner Map Task Executor #0 (MapTask.java) - Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+2021/08/30 01:17:39.874 [ INFO] main (Job.java) -  map 100% reduce 0%
+2021/08/30 01:17:39.892 [ INFO] LocalJobRunner Map Task Executor #0 (LocalJobRunner.java) - 
+2021/08/30 01:17:39.892 [ INFO] LocalJobRunner Map Task Executor #0 (MapTask.java) - Starting flush of map output
+2021/08/30 01:17:39.892 [ INFO] LocalJobRunner Map Task Executor #0 (MapTask.java) - Spilling map output
+2021/08/30 01:17:39.892 [ INFO] LocalJobRunner Map Task Executor #0 (MapTask.java) - bufstart = 0; bufend = 20033568; bufvoid = 104857600
+2021/08/30 01:17:39.892 [ INFO] LocalJobRunner Map Task Executor #0 (MapTask.java) - kvstart = 26214396(104857584); kvend = 18656128(74624512); length = 7558269/6553600
+2021/08/30 01:17:40.777 [ INFO] LocalJobRunner Map Task Executor #0 (MapTask.java) - Finished spill 0
+2021/08/30 01:17:40.782 [ INFO] LocalJobRunner Map Task Executor #0 (Task.java) - Task:attempt_local226148433_0001_m_000001_0 is done. And is in the process of committing
+2021/08/30 01:17:40.786 [ INFO] LocalJobRunner Map Task Executor #0 (LocalJobRunner.java) - file:/C:/Users/91805/eclipse-workspace/WordCount/Melbourne:0+12576186
+2021/08/30 01:17:40.786 [ INFO] LocalJobRunner Map Task Executor #0 (Task.java) - Task 'attempt_local226148433_0001_m_000001_0' done.
+2021/08/30 01:17:40.787 [ INFO] LocalJobRunner Map Task Executor #0 (Task.java) - Final Counters for attempt_local226148433_0001_m_000001_0: Counters: 18
+	File System Counters
+		FILE: Number of bytes read=25353783
+		FILE: Number of bytes written=712648
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+	Map-Reduce Framework
+		Map input records=97182
+		Map output records=1889568
+		Map output bytes=20033568
+		Map output materialized bytes=59714
+		Input split bytes=213
+		Combine input records=1889568
+		Combine output records=4221
+		Spilled Records=4221
+		Failed Shuffles=0
+		Merged Map outputs=0
+		GC time elapsed (ms)=7
+		Total committed heap usage (bytes)=440401920
+	File Input Format Counters 
+		Bytes Read=0
+2021/08/30 01:17:40.787 [ INFO] LocalJobRunner Map Task Executor #0 (LocalJobRunner.java) - Finishing task: attempt_local226148433_0001_m_000001_0
+2021/08/30 01:17:40.787 [ INFO] LocalJobRunner Map Task Executor #0 (LocalJobRunner.java) - Starting task: attempt_local226148433_0001_m_000002_0
+2021/08/30 01:17:40.789 [ INFO] LocalJobRunner Map Task Executor #0 (FileOutputCommitter.java) - File Output Committer Algorithm version is 2
+2021/08/30 01:17:40.789 [ INFO] LocalJobRunner Map Task Executor #0 (FileOutputCommitter.java) - FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+2021/08/30 01:17:40.790 [ INFO] LocalJobRunner Map Task Executor #0 (ProcfsBasedProcessTree.java) - ProcfsBasedProcessTree currently is supported only on Linux.
+2021/08/30 01:17:40.833 [ INFO] LocalJobRunner Map Task Executor #0 (Task.java) -  Using ResourceCalculatorProcessTree : org.apache.hadoop.yarn.util.WindowsBasedProcessTree@1d364c9f
+2021/08/30 01:17:40.835 [ INFO] LocalJobRunner Map Task Executor #0 (MapTask.java) - Processing split: file:/C:/Users/91805/eclipse-workspace/WordCount/3littlepigs:0+4999085
+2021/08/30 01:17:40.837 [ INFO] LocalJobRunner Map Task Executor #0 (MapTask.java) - numReduceTasks: 1
+2021/08/30 01:17:40.843 [ INFO] LocalJobRunner Map Task Executor #0 (MapTask.java) - (EQUATOR) 0 kvi 26214396(104857584)
+2021/08/30 01:17:40.845 [ INFO] LocalJobRunner Map Task Executor #0 (MapTask.java) - mapreduce.task.io.sort.mb: 100
+2021/08/30 01:17:40.845 [ INFO] LocalJobRunner Map Task Executor #0 (MapTask.java) - soft limit at 83886080
+2021/08/30 01:17:40.845 [ INFO] LocalJobRunner Map Task Executor #0 (MapTask.java) - bufstart = 0; bufvoid = 104857600
+2021/08/30 01:17:40.845 [ INFO] LocalJobRunner Map Task Executor #0 (MapTask.java) - kvstart = 26214396; length = 6553600
+2021/08/30 01:17:40.846 [ INFO] LocalJobRunner Map Task Executor #0 (MapTask.java) - Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+2021/08/30 01:17:41.034 [ INFO] LocalJobRunner Map Task Executor #0 (LocalJobRunner.java) - 
+2021/08/30 01:17:41.034 [ INFO] LocalJobRunner Map Task Executor #0 (MapTask.java) - Starting flush of map output
+2021/08/30 01:17:41.034 [ INFO] LocalJobRunner Map Task Executor #0 (MapTask.java) - Spilling map output
+2021/08/30 01:17:41.034 [ INFO] LocalJobRunner Map Task Executor #0 (MapTask.java) - bufstart = 0; bufend = 8469370; bufvoid = 104857600
+2021/08/30 01:17:41.034 [ INFO] LocalJobRunner Map Task Executor #0 (MapTask.java) - kvstart = 26214396(104857584); kvend = 22556200(90224800); length = 3658197/6553600
+2021/08/30 01:17:41.445 [ INFO] LocalJobRunner Map Task Executor #0 (MapTask.java) - Finished spill 0
+2021/08/30 01:17:41.448 [ INFO] LocalJobRunner Map Task Executor #0 (Task.java) - Task:attempt_local226148433_0001_m_000002_0 is done. And is in the process of committing
+2021/08/30 01:17:41.450 [ INFO] LocalJobRunner Map Task Executor #0 (LocalJobRunner.java) - file:/C:/Users/91805/eclipse-workspace/WordCount/3littlepigs:0+4999085
+2021/08/30 01:17:41.450 [ INFO] LocalJobRunner Map Task Executor #0 (Task.java) - Task 'attempt_local226148433_0001_m_000002_0' done.
+2021/08/30 01:17:41.450 [ INFO] LocalJobRunner Map Task Executor #0 (Task.java) - Final Counters for attempt_local226148433_0001_m_000002_0: Counters: 18
+	File System Counters
+		FILE: Number of bytes read=30353527
+		FILE: Number of bytes written=718763
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+	Map-Reduce Framework
+		Map input records=77078
+		Map output records=914550
+		Map output bytes=8469370
+		Map output materialized bytes=6083
+		Input split bytes=215
+		Combine input records=914550
+		Combine output records=497
+		Spilled Records=497
+		Failed Shuffles=0
+		Merged Map outputs=0
+		GC time elapsed (ms)=5
+		Total committed heap usage (bytes)=446693376
+	File Input Format Counters 
+		Bytes Read=0
+2021/08/30 01:17:41.450 [ INFO] LocalJobRunner Map Task Executor #0 (LocalJobRunner.java) - Finishing task: attempt_local226148433_0001_m_000002_0
+2021/08/30 01:17:41.450 [ INFO] Thread-3 (LocalJobRunner.java) - map task executor complete.
+2021/08/30 01:17:41.452 [ INFO] Thread-3 (LocalJobRunner.java) - Waiting for reduce tasks
+2021/08/30 01:17:41.452 [ INFO] pool-4-thread-1 (LocalJobRunner.java) - Starting task: attempt_local226148433_0001_r_000000_0
+2021/08/30 01:17:41.455 [ INFO] pool-4-thread-1 (FileOutputCommitter.java) - File Output Committer Algorithm version is 2
+2021/08/30 01:17:41.455 [ INFO] pool-4-thread-1 (FileOutputCommitter.java) - FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+2021/08/30 01:17:41.455 [ INFO] pool-4-thread-1 (ProcfsBasedProcessTree.java) - ProcfsBasedProcessTree currently is supported only on Linux.
+2021/08/30 01:17:41.487 [ INFO] pool-4-thread-1 (Task.java) -  Using ResourceCalculatorProcessTree : org.apache.hadoop.yarn.util.WindowsBasedProcessTree@b412a1c
+2021/08/30 01:17:41.489 [ INFO] pool-4-thread-1 (ReduceTask.java) - Using ShuffleConsumerPlugin: org.apache.hadoop.mapreduce.task.reduce.Shuffle@32945593
+2021/08/30 01:17:41.490 [ WARN] pool-4-thread-1 (MetricsSystemImpl.java) - JobTracker metrics system already initialized!
+2021/08/30 01:17:41.497 [ INFO] pool-4-thread-1 (MergeManagerImpl.java) - MergerManager: memoryLimit=2975649024, maxSingleShuffleLimit=743912256, mergeThreshold=1963928448, ioSortFactor=10, memToMemMergeOutputsThreshold=10
+2021/08/30 01:17:41.498 [ INFO] EventFetcher for fetching Map Completion Events (EventFetcher.java) - attempt_local226148433_0001_r_000000_0 Thread started: EventFetcher for fetching Map Completion Events
+2021/08/30 01:17:41.512 [ INFO] localfetcher#1 (LocalFetcher.java) - localfetcher#1 about to shuffle output of map attempt_local226148433_0001_m_000002_0 decomp: 6079 len: 6083 to MEMORY
+2021/08/30 01:17:41.514 [ INFO] localfetcher#1 (InMemoryMapOutput.java) - Read 6079 bytes from map-output for attempt_local226148433_0001_m_000002_0
+2021/08/30 01:17:41.515 [ INFO] localfetcher#1 (MergeManagerImpl.java) - closeInMemoryFile -> map-output of size: 6079, inMemoryMapOutputs
